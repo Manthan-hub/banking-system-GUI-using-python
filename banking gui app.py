@@ -160,7 +160,7 @@ def withdraw():
     withdraw_screen = Toplevel(master)
     withdraw_screen.title('Withdraw')
     #Label
-    Label(withdraw_screen, text="Deposit", font=('Calibri',12)).grid(row=0,sticky=N,pady=10)
+    Label(withdraw_screen, text="Withdraw", font=('Calibri',12)).grid(row=0,sticky=N,pady=10)
     current_balance_label = Label(withdraw_screen, text="Current Balance : £"+details_balance, font=('Calibri',12))
     current_balance_label.grid(row=1,sticky=W)
     Label(withdraw_screen, text="Amount : ", font=('Calibri',12)).grid(row=2,sticky=W)
